@@ -1,0 +1,16 @@
+Package: gogr
+Type: Package
+Title: Use gog visualization system from R
+Version: 0.0.1
+Date: 2015-01-01
+Author: Aaron Schumacher <ajschumacher@gmail.com>
+Maintainer: Aaron Schumacher <ajschumacher@gmail.com>
+Description: Communicate with a gog (https://github.com/ajschumacher/gog)
+    server for data visualization independent of R.
+License: MIT + file LICENSE
+Encoding: UTF-8
+URL: https://github.com/ajschumacher/gogr
+BugReports: https://github.com/ajschumacher/gogr/issues
+Imports:
+    jsonlite (>= 0.9.12),
+    httr (>= 0.6.0)
